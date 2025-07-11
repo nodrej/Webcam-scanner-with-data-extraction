@@ -1,3 +1,6 @@
+########IMPORTANT#########
+##IN ORDER FOR THIS TO WORK, YOU MUST INSTALL DEPENDANCIES AND CHOOSE AN APPROPRIATE SAVE FOLDER ON LINE 335
+##########################
 import cv2
 import numpy as np
 from pyzbar import pyzbar
@@ -329,20 +332,8 @@ if __name__ == "__main__":
     # Method 1: Use raw string (prefix with r)
     tracker = PackageTracker(
         camera_index=0,
-        save_directory=r"C:\Users\jtopham.CACHEOPS\Desktop\test folder"
+        save_directory=r"C:\Users\user\Desktop\savefolder"
     )
-    
-    # Alternative Method 2: Use forward slashes (works on Windows too)
-    # tracker = PackageTracker(
-    #     camera_index=0,
-    #     save_directory="C:/Users/jtopham.CACHEOPS/Desktop/test folder"
-    # )
-    
-    # Alternative Method 3: Use double backslashes
-    # tracker = PackageTracker(
-    #     camera_index=0,
-    #     save_directory="C:\\Users\\jtopham.CACHEOPS\\Desktop\\test folder"
-    # )
     
     # Start tracking
     tracker.start_tracking()
