@@ -1,0 +1,1 @@
+Originally this was for a project that was being used to scan UPS packages that were going past a camera on a conveyor belt that was used to snap a picutre of the package and the weight of the package before handing them off to UPS for insurance purposes
